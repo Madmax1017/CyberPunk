@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+
+</head>
+<body>
+<div class="main w-full">
+
+        <nav class="fixed top-0 left-0 w-full px-10 py-3 flex justify-between items-center ">
+            <img class="w-[160px] mix-blend-screen filter saturate-150 contrast-125 cursor-pointer"
+                 src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+                 alt="Logo">
+
+
+        </nav>
+    <div class="relative w-full h-screen overflow-hidden bg-[#0a0a0a]">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+                w-[50rem] h-[50rem] rounded-full
+                bg-blue-600 blur-[100px] opacity-50 z-0">
+        </div>
+
+        <canvas id="canvas" class="absolute top-0 left-0 w-full h-full z-10"></canvas>
+
+        <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none mix-blend-screen filter saturate-150 contrast-125"
+             src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="Logo">
+    </div>
+
+</div>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
